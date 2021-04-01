@@ -1,15 +1,14 @@
 import React from 'react'
-import { Button } from 'antd';
-import { NavTop, LoginBtn, LogoName, RegisterBtn, RegisZone } from './navbar.styles'
+import { NavTop, LoginBtn, RegisterBtn, RegisZone, LogoPrima } from './navbar.styles'
 
 
 export default function Navbar() {
     return (
         <NavTop>
-            <LogoName>PRIMA LASER</LogoName>
+            <LogoPrima/>
             <RegisZone>
-                <RegisterBtn> Register </RegisterBtn>
-                <LoginBtn> Login </LoginBtn>
+                <RegisterBtn> สมัครสมาชิก </RegisterBtn>
+                <LoginBtn> เข้าสู่ระบบ </LoginBtn>
             </RegisZone>
         </NavTop>
     )
