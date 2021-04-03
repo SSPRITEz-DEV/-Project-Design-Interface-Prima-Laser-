@@ -46,6 +46,7 @@ export const LogoName = styled.h1`
 export const LoginBtn = styled(Button)`
     margin-left: 20px;
 
+    font-family: 'Kanit', sans-serif;
     font-size: 15px;
     width: 150px;
     height: 35px;
@@ -68,6 +69,7 @@ export const LoginBtn = styled(Button)`
     }
 `
 export const RegisterBtn = styled(Button)`
+    font-family: 'Kanit', sans-serif;
     font-size: 15px;
     width: 150px;
     height: 35px;

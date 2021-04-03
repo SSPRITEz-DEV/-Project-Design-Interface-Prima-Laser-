@@ -34,7 +34,7 @@ export const LoginText = styled.h1`
     width: 400px;
     height: 57px;
 
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
@@ -51,10 +51,10 @@ export const LoginText = styled.h1`
 `
 export const TextP = styled.p<{fontSize: number}>`
     /* ไอดี */
-    width: 400px;
+    width: 420px;
     height: 48px;
 
-    font-family: Source Sans Pro;
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: ${props=>props.fontSize}px;
@@ -72,7 +72,7 @@ export const TextP = styled.p<{fontSize: number}>`
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 5px 0px;
+    margin: 5px 10px;
 `
 export const InputValue = styled.input`
     /* Rectangle 1 */
@@ -109,7 +109,7 @@ export const LoginBtn = styled(Button)`
     border: 3px solid #F2C94C;
     border-radius: 20px;
 
-    font-family: Source Sans Pro;
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
